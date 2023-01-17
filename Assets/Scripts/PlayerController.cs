@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
     {
         rb.AddForce(vec * jumpForce, ForceMode.Impulse);    
     }
+
     void youLose()
     {
         gameOver = true;
